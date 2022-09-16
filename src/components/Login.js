@@ -3,7 +3,6 @@ import React, { useState } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 import { auth } from '../firebase';
 import InputControl from './InputControl';
-import { Card, Button } from 'react-bootstrap';
 
 function Login () {
 

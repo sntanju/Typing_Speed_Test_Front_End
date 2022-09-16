@@ -4,7 +4,7 @@ import { CountdownCircleTimer } from 'react-countdown-circle-timer'
 const Timer = ({flag, setFlag}) => (
     <CountdownCircleTimer
       isPlaying
-      duration={15}
+      duration={60}
       rotation = {'counterclockwise'}
       trailColor = '#ad2d31'
       size={100}

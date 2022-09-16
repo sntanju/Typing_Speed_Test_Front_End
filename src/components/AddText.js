@@ -12,7 +12,7 @@ const AddText = () => {
     const postMassage = async () => {
       axios({
         method: 'post',
-        url: 'http://localhost:5000/api/add',
+        url: 'https://typingspeedtestbackend-production.up.railway.app/api/add',
         headers: {},
         data: {"passage": textAreaText}
       });
