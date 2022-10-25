@@ -12,7 +12,7 @@ const AddText = () => {
     const postMassage = async () => {
       axios({
         method: 'post',
-        url: 'https://typingspeedtestbackend-production.up.railway.app/api/add',
+        url: 'https://vast-blue-whale-ring.cyclic.app/api/add',
         headers: {},
         data: {"passage": textAreaText}
       });
