@@ -31,7 +31,7 @@ function App() {
         setUserLoggedIn(false);
         setUserName("");
       }
-      axios.post("https://typingspeedtestbackend-production.up.railway.app/api/admin", {
+      axios.post("https://vast-blue-whale-ring.cyclic.app/api/admin", {
         email: userEmail
       })
       .then( (response) => {
