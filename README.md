@@ -11,4 +11,4 @@
 ### **Front-End:** ReactJS, Redux, Firebase-AUTH, Axios, React-Bootstrap, React-Icons
 ### **Back-End:** NodeJS, ExpressJS, Mongoose, REST-API
 ### **Version-Control:** Git, Github
-### **Deployment:** Vercel(front-end), Railway(backend)
+### **Deployment:** Vercel(front-end), Cyclic(backend)
