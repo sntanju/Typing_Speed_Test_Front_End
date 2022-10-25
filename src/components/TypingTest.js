@@ -8,7 +8,7 @@ const TypingTest = () => {
     let [post, setpost] = useState('');
     const [isLoading, setLoading] = useState(true);
         useEffect( () => {
-        axios.get("https://typingspeedtestbackend-production.up.railway.app/generate/passage")
+        axios.get("https://vast-blue-whale-ring.cyclic.app/generate/passage")
         .then( (response) => {
             setpost(response.data);
         }).catch(err => console.log(err))
